@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Expletus+Sans:ital@1&family=Lobster&family=Merriweather&family=Montserrat&display=swap');
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.header{
+    background-color: black;
+    width: 100%;
+    height: 35px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    color: white;
+    text-transform: uppercase;
+    padding-right: 10px;
+}
+
+.plyastaion_icon{
+    height: 20px;
+    margin-left: 10px;
+}
+.Topnavbar{
+    background-color: white !important;
+}
+
+.container-fluid {
+    height: 20px;
+}
+
+.sing_btn{
+   background-color: #005499;
+   color: white;
+   padding: 0px 13px;
+   border: none;
+   border-radius: 15px;
+   margin-right: 30px;
+   font-weight:bold;
+
+}
+
+.navbar-collapse{
+    font-family: 'Pridi', serif;
+}
+/* scond-nav */
+.second-nav{
+    /* display: flex; */
+    height: 60px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+}
+.store-brand{
+    padding-top: 1%;
+    padding-left: 2%;
+}
+
+.storeIcon{
+    height: 25px;
+    /* margin-left: 20px; */
+}
+
+.navbar-brand{
+    font-family: 'Kalam', cursive;
+    font-weight: bolder
+    
+}
+ .navOrder{
+    list-style: none;
+    display: flex;
+    
+}
+
+.navList{
+    font-weight: bolder;
+    padding: 2%;
+}
+
+
+/* image */
+
+
+.bigImage{
+    margin-top: 60px;
+}
+.image{
+    width: 100%;
+}
+.imageHeading{
+    margin-bottom: 30px;
+}
+.imageBottom{
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+    padding: 30px 50px;
+    position: relative;
+
+}
+
+.outNowBtn{
+   background-color: #005499;
+   color: white;
+   padding: 8px 13px;
+   border: none;
+   border-radius: 25px;
+   margin-right: 30px;
+   font-weight:bold;
+   position: absolute;
+   right: 0;
+   top: 30px;
+}
+
+/* @media(max-width: 500px){
+   .outNowBtn{
+        display: flex;
+        align-items: center;       
+   }
+} */
+
+
+/* cards */
+.cards{
+    margin-top: 40px;
+    padding: 3% 7%;
+    width: 100%;
+}
+
+.cards img{
+    margin-bottom: 20px;
+    border-radius:5px;
+  }
+/* -----------new game ------------------------------*/
+.new-games-container{
+    margin-top: 40px;
+    padding: 3% 5%;
+    /* width: 100%; */
+    }
+    
+    .new-games-container img {
+        border-radius: 5px;
+        width: 200px;
+        height: 200px;
+}
+/* --------------------footer--------------------- */
+.footer{
+    /* margin-top: 50px;
+    padding: 30px 50px; */
+    /* width: 100%; */
+    background-color:#003697 ;
+    color:white;
+    margin-top: 100px;
+
+}
+.footerContainer{
+    max-width: 1150px;
+    margin: auto;
+    padding: 20px 30px;
+}
+
+.footer ul{
+    list-style: none;
+}
+
+.footerRow{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footerColumn{
+    width: 30%;
+}
+.footerColumn ul li{
+    margin-bottom: 10px;
+}
+.footerColumn a{
+    text-decoration: none;
+    font-size: 16px;
+    color: white;
+    text-transform: capitalize;
+    display: block;
+    transition: all 0.3s ease;
+}
+
+
+
+
+.footerPlayStationIcon{
+    height: 50px !important;
+    width: 50px !important;
+    margin-left: 28px;
+}
+
+.footerIconCountry{
+    margin-bottom: 30px;
+}
+
+.countryIcon{
+    margin-left: 40px;
+    margin-right: 5px;
+    height: 25px !important;
+    width: 25px !important;
+    
+}
+
+@media(max-width: 767px){
+    .footerColumn{
+        width: 50%;
+        margin-bottom: 30px;
+    }
+    .footerIconCountry{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media(max-width: 500px){
+    .footerColumn{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .footerIconCountry{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media(max-width:991px) {
+    .cards .image {
+        width: 300px;
+        height: 300px;
+    }
+}
+
+@media(max-width:720px) {
+    .navList{
+        font-size: small;
+    }
+
+}
